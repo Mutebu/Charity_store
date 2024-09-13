@@ -1,0 +1,160 @@
+html{
+    font-size: 16px;
+}
+body{
+    margin:0;
+    font-family: Fredoka;
+}
+/* Header */
+header{
+    height: 5rem;
+    border-bottom: 1px solid #009100;
+    color: white ;
+    background-color: rgb(91 200 22);
+    box-shadow: inset 0 -0.2rem 1rem #009100, inset 0 0.2rem 1rem #009100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+header .content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+header img{
+    height: 100%;
+}
+header #name{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header h3{
+    margin: 0 0.625rem;
+    font-family: Fredoka;
+}
+header nav{
+    display: inline-block;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 0.3125rem;
+    font-family: Fredoka;
+    font-weight: light;
+}
+
+/* Main */
+#move{
+    position: relative;
+    top: 5rem;
+}
+
+            /* Banner */
+#banner{
+    display: flex;
+    align-items: center;
+    background-image: url("../images/beautiful-japanese-forest-landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:40rem;
+    width: 100%;
+    color: white ;
+    
+}
+#banner #text{
+    text-align: center;
+    background-color: rgb(91 200 22);
+    box-shadow: inset 0 -0.2rem 1rem #009100, inset 0 0.2rem 1rem #009100;
+    width: 100%;
+}
+#banner #text h1{
+    font-size: 2rem;
+    
+}
+
+section#portfolio, .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.p_article {
+    width:30rem;
+    flex-shrink: 1;
+    text-align:center;
+    background-color: rgb(91 200 22);
+    color: white;
+    box-sizing: border-box;
+    margin: 0.8rem;
+}
+.p_article img{
+    width: 100%;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    box-sizing: border-box;
+}
+
+#investment_team{
+    text-align: center;
+    background-image: url('../images/minimalist-empty-room-business-building.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+#investment_team article{
+    width: 20rem;
+    text-align: center;
+    margin: 0 1rem 1rem 0;
+}
+.flex{
+    margin: 0;
+}
+#investment_team article img{
+width: 100%;
+}
+#investment_team h2{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 2rem;
+
+}
+#investment_team h3{
+    font-size: 2rem;
+}
+#investment_team h4{
+    font-size: 1rem;
+}
+
+/* Footer */
+footer{
+    position: relative;
+    top: 0px;
+    padding: 1rem;
+    background-color: #212128;
+    color: white;
+}
+#credit-section{
+    padding: 0 0rem;
+}
+#contacts{
+    padding: 0 0rem;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    cursor: pointer;
+}
+a:active{
+    text-decoration: none;
+}
